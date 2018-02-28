@@ -1,0 +1,18 @@
+html,
+body,
+#___gatsby,
+.container {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  max-height: 100vh;
+  overflow: hidden;
+}
