@@ -36,11 +36,9 @@ export class Celebration extends Component {
     el.className = 'emoji';
     el.innerHTML = emoji;
 
-    [['top', getRandom(height)], ['left', getRandom(width)]].forEach(
-      ([property, value]) => {
-        el.style[property] = value;
-      }
-    );
+    el.style.transform = `translate3d(${getRandom(width)}, ${getRandom(
+      height
+    )}, 0)`;
 
     return el;
   }
