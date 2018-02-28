@@ -4,7 +4,7 @@ import './celebration.css';
 
 export class Celebration extends Component {
   static defaultProps = {
-    list: ['🎈', '🍾', '🎆', '🎉', '👶', '🍼']
+    list: ['🎈', '🍾', '🎆', '🎉', '👶', '👦', '👪', '🍼', '💙']
   };
 
   componentDidMount() {
@@ -15,7 +15,7 @@ export class Celebration extends Component {
         this.container.appendChild(this.getEmoji(list[index]));
       }
       index = index + 1 === list.length ? 0 : index + 1;
-    }, 1000);
+    }, 100);
   }
 
   componentWillUnmount() {
