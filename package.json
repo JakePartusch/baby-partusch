@@ -3,7 +3,10 @@
   "description":
     "A site to answer the eternal question... has baby Partusch arrived yet?",
   "version": "1.0.0",
-  "author": "Jake Partusch <jacob.partusch@objectpartners.com>",
+  "author": "Jake Partusch <jakepartusch@gmail.com>",
+  "contributors": [
+    "Dustin Schau <dustinschau@gmail.com> (https://dustinschau.com)"
+  ],
   "dependencies": {
     "gatsby": "^1.9.215",
     "gatsby-link": "^1.6.37",
