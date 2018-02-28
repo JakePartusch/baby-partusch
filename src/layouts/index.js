@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import { Content, Footer } from '../components';
+import { Content } from '../components';
 
 import './index.css';
 
@@ -21,7 +21,6 @@ export default function TemplateWrapper({ children }) {
         ]}
       />
       <Content children={children} />
-      <Footer />
     </main>
   );
 }
