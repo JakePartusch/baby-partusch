@@ -16,7 +16,7 @@ const Message = ({ arrived }) => {
   }
   return (
     <span>
-      Baby Partusch has <Emphasis>not yet</Emphasis> arrived
+      Baby Partusch #2 has <Emphasis>not yet</Emphasis> arrived
     </span>
   );
 };
