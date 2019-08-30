@@ -10,7 +10,7 @@ const Message = ({ arrived }) => {
   if (arrived) {
     return (
       <span>
-        Baby Partusch <Emphasis>has arrived!</Emphasis>
+        Oliver <Emphasis>has arrived!</Emphasis>
       </span>
     );
   }
